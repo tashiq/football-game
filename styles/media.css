@@ -60,6 +60,16 @@
         flex-direction: column;
         gap: 20px;
     }
+    /* sponsor section  */
+    .sponsors{
+        grid-template-columns: repeat(2,1fr);
+        gap: 1em;
+
+    }
+    .sponsor{
+        box-shadow: 0 0 white;
+        border: 0;
+    }
     /* footer  */
    footer{
        max-width: 100%;
@@ -110,10 +120,17 @@
     }
     /* match section  */
     .match-section{
-        margin: 30px 40px;
+        margin: 100px;
+        
         padding: 14px;
     }
+    /* sponsor section  */
 
+    .sponsors{
+        grid-template-columns: repeat(3,1fr);
+        gap: 1em;
+
+    }
     /* footer section  */
     footer{
         margin-top: 90px;

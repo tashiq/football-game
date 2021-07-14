@@ -27,6 +27,7 @@ body hr{
     border-radius: 9px;
 }
 /* specific styles */
+/* top section  */
 .top-section{
     height: 590px;
     padding-right: 156px;
@@ -153,6 +154,7 @@ footer .fab{
     padding: 5px;
     margin-right: 6px;
 }
+/* match section  */
 .match-section{
     margin: 50px 60px;
     padding: 20px;
@@ -183,4 +185,23 @@ footer .fab{
 }
 .team h3{
     font-size: 20px;
+}
+/* sponsor section  */
+.sponsor-section{
+    margin-top: 120px;
+    padding-left: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+.sponsors{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.sponsor img{
+    
+    padding: 25px;
+    box-shadow: 0 0 4px;
 }
