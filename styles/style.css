@@ -68,7 +68,7 @@ body hr{
 }
 .top-section:hover .fa-play-circle{
     display: inline-block;
-    animation: play 1s infinite;
+    animation: play 5s infinite;
 }
 @keyframes play {
     0%{
