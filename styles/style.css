@@ -1,0 +1,151 @@
+/* google fonts  */
+/* popins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300&display=swap');
+/* common styles */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+}
+body hr{
+    border: 1px solid #d1d1d1;
+    width: 95%;
+    margin: auto;
+}
+.half-width{
+    width: 50%;
+}
+.link{
+    text-decoration: none;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: rgb(212, 126, 139);
+    color: white;
+    border-radius: 9px;
+}
+/* specific styles */
+.top-section{
+    height: 590px;
+    padding-right: 156px;
+    background-color: #2d25a0;
+    display: flex;
+}
+
+.left-container{
+    padding-top: 121px;
+    padding-left: 156px;
+}
+.top-section .left-container h1{
+    font-size: 64px;
+    color: white;
+    padding-bottom: 13px;
+}
+.fa-arrow-right{
+    padding-left: 3px;
+}
+.fa-play-circle{
+    display: none;
+}
+
+.top-banner img{
+    width: 100%;
+    padding-top: 67px;
+}
+
+.top-section:hover .btn{
+    background-color: red;
+    transition: background-color .3s ease-out;
+}
+.top-section:hover .fa-arrow-right{
+    display: none;
+}
+.top-section:hover .fa-play-circle{
+    display: inline-block;
+    animation: play 1s infinite;
+}
+@keyframes play {
+    0%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+/* player section  */
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-top: 70px;
+    padding-left: 180px;
+    padding-right: 210px;
+}
+.player{
+    box-shadow: 0 0 40px rgb(199, 190, 190);
+    margin-left: 30px;
+    margin-bottom: 27px;
+    padding: 15px;
+}
+.player img{
+    max-width: 100%;
+
+}
+.player-name{
+    font-size: 28px;
+    margin-bottom: 10px;
+    font-family: 'Popins',sans-serif;
+}
+/* video section  */
+.video-section{
+    display: flex;
+}
+.video-content{
+    margin-top: 185px;
+    margin-left: 182px;
+    margin-right: 66px;
+}
+.video-section .video-title{
+    font-size: 48px;
+    font-weight: 700;
+}
+.video-content p{
+    
+    margin-bottom: 20px;
+}
+.video-section .btn{
+    background-color: red;
+}
+.video-section .half-width img{
+    width: 567px;
+    height: 427px;
+    margin-top: 150px;
+    margin-right: 156px;
+}
+
+/* footer section  */
+footer{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 156px;
+    align-items: center;
+}
+footer .bottom-banner img{
+    width: 500px;
+}
+footer .social-media{
+    padding-bottom: 14px;
+    font-size: 18px; 
+}
+footer .fab{
+    background-color: rgb(206, 206, 206);
+    box-sizing: border-box;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    padding: 5px;
+    margin-right: 6px;
+}
